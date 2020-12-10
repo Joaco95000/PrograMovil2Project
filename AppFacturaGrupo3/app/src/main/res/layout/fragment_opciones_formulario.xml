@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <TextView
+            android:id="@+id/tvNombreEnviado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+
+    <Button
+        android:id="@+id/btnCrearFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Factura" />
+
+    <Button
+        android:id="@+id/btnScanear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escanear Una Factura" />
+    <Button
+        android:id="@+id/btnListarFacturasManales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Facturas Manuales" />
+    <Button
+        android:id="@+id/btnListarFacturasEscaneadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Facturas Escaneadas" />
+
+    <Button
+        android:id="@+id/btnExportar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exportar Facturas a Excel" />
+
+</LinearLayout>

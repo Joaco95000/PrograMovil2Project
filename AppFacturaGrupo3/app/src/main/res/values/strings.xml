@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Facturas</string>
+    <string name="open">open</string>
+    <string name="btnQS">Quienes Somos</string>
+    <string name="QuienesSomos">Somos Estudiantes De Univalle que trabajaron en el proyecto de la materia programación movil II que consiste en un una app de facturas</string>
+    <string name="close">close</string>
+    <string name="imagen">imagen</string>
+    <string name="nombreform">Nombre</string>
+    <string name="año">Año</string>
+    <string name="CrearForm">Crear Formulario</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombreForm">Nombre del formulario</string>
+</resources>

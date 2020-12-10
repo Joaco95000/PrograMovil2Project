@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#2F4E6F">
+
+        <ImageView
+            android:id="@+id/imagenFactura"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/formularios">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/imagenFactura"
+            android:layout_toRightOf="@id/imagenFactura"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorError">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Mes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Nombre"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/imagenFactura"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorError">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Anio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Mes"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/imagenFactura"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorError">
+        </TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
